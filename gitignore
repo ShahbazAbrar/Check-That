@@ -1,0 +1,50 @@
+# === Dataset (large, download separately) ===
+data/*
+!data/README.md
+*.parquet
+*.faiss
+*.npy
+*.pkl
+
+# === Secrets (NEVER commit) ===
+.env
+*.key
+*_token*
+credentials.json
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# === Jupyter ===
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+Untitled*.ipynb
+
+# === Local dev artifacts ===
+.vscode/
+.idea/
+*.log
+streamlit.log
